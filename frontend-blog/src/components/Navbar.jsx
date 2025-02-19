@@ -30,7 +30,7 @@ const Navbar = () => {
           {/* Right side - Auth buttons */}
           <div className="flex space-x-4">
             <Link 
-              to="/create" 
+              to="/create-post" 
               className="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded"
             >
               Create Post
