@@ -1,12 +1,20 @@
-package controller;
-import model.BlogPost;
-import service.BlogPostService;
+package com.controller;
+import com.model.BlogPost;
+import com.service.BlogPostService;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+
+// V1
+// @RestController
+// @RequestMapping("/api/posts")
+// @CrossOrigin(origins = "http://localhost:3000")
+// public class BlogPostController {
+
 @RestController
 @RequestMapping("/api/posts")
-@CrossOrigin(origins = "http://localhost:3000")
+
 public class BlogPostController {
+    // V2
     private final BlogPostService blogPostService;
     public BlogPostController(BlogPostService blogPostService) {
         this.blogPostService = blogPostService;
