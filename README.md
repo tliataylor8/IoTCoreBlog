@@ -6,11 +6,7 @@ IoTCore Blog is a full-stack web application designed to provide insightful cont
 
 Features
 
-User Authentication: Secure login and registration for users.
-
 Blog Management: Create, edit, delete, and view blog posts.
-
-Comment System: Engage with blog posts through comments.
 
 Responsive UI: A sleek and user-friendly interface built with React.js.
 
@@ -20,23 +16,14 @@ Database Storage: MySQL database integration for persistent data management.
 
 Tech Stack
 
-Frontend: React.js, HTML, CSS, JavaScript
+Frontend: React.js, HTML, Tailwind CSS, JavaScript
 
 Backend: Java, Spring Boot
 
 Database: MySQL
 
-Tools & Services: Axios, MySQL Workbench, Eclipse, Postman
+Tools & Services: Axios, MySQL Workbench, Eclipse/IntelliJ, Postman
 
-Setup Instructions
-
-Prerequisites
-
-Node.js & npm
-
-Java 17+ (for Spring Boot)
-
-MySQL Server & MySQL Workbench
 
 Eclipse IDE (or any preferred IDE for Java development)
 
